@@ -2,6 +2,20 @@ html {
     background-color: #1F2937;
 }
 
+button {
+    width:100px;
+    height:35px;
+    line-height: 30px;
+    box-sizing: border-box;
+    background-color: #3882F6;
+    color: white;
+    border-radius:10px;
+    border: 1px solid #000;
+    font-weight:bolder;
+    font-size:16px;
+    margin-top: -10px;
+}
+
 .upbody {
     display:flex;
     flex-flow: row-reverse;
@@ -9,7 +23,9 @@ html {
     align-items:center;
     color: #f9faf8;
     border: solid red 4px;
-    margin: 40px;
+    margin-left: 205px;
+    margin-right: 205px;
+    margin-top: 50px;
 }
 
 .header {
@@ -44,15 +60,19 @@ ul {
     display:flex;
     flex-direction: column;
 }
+
 .smalltext {
-    border: solid red 4px;
+    /*border: solid red 4px;*/
     word-wrap: break-word;
-    
+    margin-top: -65px;
 }
 
 p#middletext {
     border:solid red 4px;
     align-items: flex-end;
+    font-size: 48px;
+    font-weight: 800;
+    margin-left: -5px;
 }
 
 p#htext {
