@@ -1,0 +1,33 @@
+html {
+    background-color: #1F2937;
+}
+
+.header {
+    border: solid rgb(255, 0, 0) 4px;
+    display:flex;
+    justify-content:space-evenly;
+    gap:52px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p#htext {
+    border:solid red 4px;
+    display:flex;
+    justify-content: flex-start;
+    font-size:24px; 
+    color:#f9faf8;
+    font-weight:bold;
+}
+.links {
+    border:solid red 4px;
+    display:flex;
+    gap:25px;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    
+}
