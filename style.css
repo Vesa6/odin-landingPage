@@ -2,6 +2,16 @@ html {
     background-color: #1F2937;
 }
 
+.upbody {
+    display:flex;
+    flex-flow: row-reverse;
+    justify-content:center;
+    align-items:center;
+    color: #f9faf8;
+    border: solid red 4px;
+    margin: 40px;
+}
+
 .header {
     border: solid rgb(255, 0, 0) 4px;
     display:flex;
@@ -10,15 +20,46 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 700px;
+}
+
 ul {
     list-style-type: none;
+}
+
+.image-placeholder {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+}
+
+.leftcolumn {
+    border: solid red 4px;
+    display:flex;
+    flex-direction: column;
+}
+.smalltext {
+    border: solid red 4px;
+    word-wrap: break-word;
+    
+}
+
+p#middletext {
+    border:solid red 4px;
+    align-items: flex-end;
 }
 
 p#htext {
     border:solid red 4px;
     display:flex;
     justify-content: flex-start;
-    font-size:24px; 
+    font-size:32px; 
     color:#f9faf8;
     font-weight:bold;
 }
